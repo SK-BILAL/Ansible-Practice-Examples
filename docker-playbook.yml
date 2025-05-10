@@ -1,0 +1,6 @@
+---
+- name: Install Docker on target nodes.
+  hosts: all
+  become: true
+  roles:
+    - bsmeding.docker
